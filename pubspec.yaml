@@ -1,0 +1,34 @@
+name: lottieanimationlogin
+description: A new Flutter project by Emad Alhissi.
+
+# Developer: Emad Alhissi
+# GitHub: https://github.com/emadalhissi/
+# LinkedIn: https://www.linkedin.com/in/emadalhissi/
+# YouTube Channel: Emad Coding School
+# Social Media: @emadalhissi
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  lottie: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/lottie/
